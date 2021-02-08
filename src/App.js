@@ -4,7 +4,7 @@ import TaskList from '@internal/components/TaskList/TaskList';
 
 import classes from './App.module.css';
 
-const BASEURL = "http://localhost:3500/api";
+const BASEURL = "https://task-manager-web-uca.herokuapp.com/api";
 
 function App() {
     const [tasks, setTasks] = useState([]);
