@@ -1,0 +1,19 @@
+div.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item>*{
+    margin: 0 0.5em;
+}
+
+.item>p, .item>input{
+    width: 450px;
+    text-align: justify;
+}
+
+.done {
+    color: #999;
+    text-decoration: line-through;
+}
